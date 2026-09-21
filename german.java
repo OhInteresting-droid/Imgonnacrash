@@ -1,10 +1,19 @@
+import java.util.Arrays;
 import java.util.Scanner;
-public class Einstein {
+
+public class german {
     public static void main(String[] args) {
     Scanner gutenberg = new Scanner(System.in);
-    System.out.print("Enter Your Name: ");
-    String marx = gutenberg.nextLine();
-    marx[i] = gutenberg.nextLine();
+    int Einstein = 1;
+    String[] marx = new String[Einstein];
+    System.out.println("Enter Your Name: ");
+    for(int i = 0; i < marx.length; i++) {
+        marx[i] = gutenberg.nextLine();
+    }
+    
+    System.out.println(Arrays.toString(marx));
 
+    gutenberg.close();
+    
     }
 }
