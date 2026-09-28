@@ -3,10 +3,7 @@ import java.util.Scanner;
 
 public class german2 { 
     public static void main(String[] args) { 
-    String planck = einstein();
-
-    if (planck.equalsIgnoreCase("Y")) {
-            System.out.println("metal"); 
+    String planck = einstein(); 
     }
     }
   public static String einstein() {
